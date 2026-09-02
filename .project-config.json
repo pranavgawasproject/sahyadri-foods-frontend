@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://21PPiBYaWX9oEJF.ca5572b3f5f9:a4y32t1V86DmxpgawpVZ@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/B9HhgEtwauqXuWgnpTXJvT?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://21PPiBYaWX9oEJF.ca5572b3f5f9:a4y32t1V86DmxpgawpVZ@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/B9HhgEtwauqXuWgnpTXJvT?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "B9HhgEtwauqXuWgnpTXJvT"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/B9HhgEtwauqXuWgnpTXJvT.git",
+    "expiration": "2026-09-03T17:09:15.307Z",
+    "token": "art_v2_x_56d2bdb013e1d6ce9d2f56d32d77bde373a294d7?expires=1788455355",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "sahyadri-foods-frontend",
+  "path": "/home/ubuntu/sahyadri-foods-frontend",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "jWedN4w6ifRsiJD4NGEyht",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "TVQd4yD8gGuoZjvkLeVUBH",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "pranav gawas",
+    "OWNER_OPEN_ID": "4MwcwXFVwaLBXgEqHrzvuB",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "40bfcf51-2cd2-4ae0-93b2-2577168a9d0b",
+    "VITE_APP_ID": "B9HhgEtwauqXuWgnpTXJvT",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663465003468/GznjvCTFfIUbiPkc.png",
+    "VITE_APP_TITLE": "Sahyadri Foods",
+    "VITE_FRONTEND_FORGE_API_KEY": "gz2JwZDo48z3sqx7Wq2SZK",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
