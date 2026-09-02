@@ -1,0 +1,4 @@
+- [x] Identify the image element associated with the unresolved “this look empty?” comment.
+- [x] Improve the image treatment or its surrounding composition if the empty area is confirmed.
+- [x] Verify the revised desktop and mobile rendering.
+- [x] Save a checkpoint of the verified update.
